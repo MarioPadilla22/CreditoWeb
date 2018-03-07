@@ -31,6 +31,7 @@ namespace CreditoWeb.Models
         /// como estamos dentro de la clase de tarjeta tenemos acceso a la propiedad TarjetaNum 
         private TipoTarjeta tipoDeTarjeta()
         {
+            
             return TipoTarjeta.NOVALIDA;
         }
 
